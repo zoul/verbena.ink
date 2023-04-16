@@ -72,8 +72,6 @@ h3 {
 
 .narrow {
   max-width: 80ex;
-  hyphens: auto;
-  -webkit-hyphens: auto;
 }
 
 .heroine {
