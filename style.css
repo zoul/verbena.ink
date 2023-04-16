@@ -60,6 +60,16 @@ h2 {
   margin-top: -0.5ex;
 }
 
+h3 {
+  text-transform: lowercase;
+  display: inline-block;
+  font-size: 21px;
+  background-color: var(--colors-purple);
+  color: white;
+  padding: 3px 1ex 3px 1ex;
+  margin-bottom: 1ex;
+}
+
 .narrow {
   max-width: 80ex;
   hyphens: auto;
@@ -104,6 +114,20 @@ a {
 
 a:hover {
   background-color: var(--colors-red);
+}
+
+p:not(:last-child),
+ul:not(:last-child) {
+  margin-bottom: 1ex;
+}
+
+ul {
+  list-style: none;
+}
+
+li::before {
+  content: "– ";
+  color: var(--colors-teal);
 }
 
 @media (max-width: 640px) {
