@@ -22,6 +22,7 @@ body {
   color: var(--colors-black);
   padding-left: var(--size-base);
   padding-right: var(--size-base);
+  font-family: Times, "Times New Roman", serif;
   font-size: 21px;
   line-height: 1.4em;
 }
