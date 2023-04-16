@@ -1,6 +1,5 @@
 :root {
   --colors-bg: #f0ede5;
-  --colors-silver: #eee;
   --colors-purple: #735cad;
   --colors-teal: #009c98;
   --colors-red: #cf3650;
@@ -82,7 +81,7 @@ h3 {
 
 .heroine img {
   display: block;
-  background-color: var(--colors-silver);
+  background-color: var(--colors-purple);
   width: 100%;
   height: auto;
 }
