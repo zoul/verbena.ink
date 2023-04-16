@@ -108,11 +108,11 @@ ul:not(:last-child) {
 }
 
 ul {
-  list-style: none;
+  list-style: disc;
+  list-style-position: outside;
 }
 
-li::before {
-  content: "– ";
+li::marker {
   color: var(--colors-teal);
 }
 
@@ -120,5 +120,13 @@ li::before {
   .header {
     flex-flow: column;
     gap: var(--size-big);
+  }
+}
+
+@media (max-width: 1100px) {
+  ul {
+    list-style-position: inside;
+    text-indent: -1em;
+    padding-left: 1em;
   }
 }
