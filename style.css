@@ -38,7 +38,7 @@ main {
   gap: var(--size-big);
 }
 
-.header {
+header {
   display: flex;
   align-items: flex-start;
   gap: var(--size-huge);
@@ -123,7 +123,7 @@ li::marker {
 }
 
 @media (max-width: 640px) {
-  .header {
+  header {
     flex-flow: column;
     gap: var(--size-big);
   }
